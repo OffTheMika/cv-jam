@@ -8,11 +8,42 @@
    padding: 0;
   }
 
+  nav {
+    background-color: black;
+    display: none;
+    position: absolute;
+    top: 15px; 
+    left: 0px;
+    z-index: 1;
+}
+
+nav.show {
+    display: block;
+}
+
+
+nav nav-bar li a {
+    display: block;
+    color:white;
+    padding: 10px 20px;
+}
+
+
+#navToggle {
+    position: absolute;
+    top: 0;
+    left:0; 
+    z-index: 2;
+}
+
+
+
+
   .grid-container {
     display: grid;
     grid-template-rows: auto ;
     grid-template-columns: auto ;
-    background-color: #f0f0f0;
+    background-color: white;
 
   }
 

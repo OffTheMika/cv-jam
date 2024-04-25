@@ -37,20 +37,6 @@
     margin-bottom: 10px;
   }
 
-<<<<<<< HEAD
-  nav {
-    background-color: black;
-    display: none;
-    position: absolute;
-    top: 15px; 
-    left: 0px;
-    z-index: 1;
-}
-
-nav.show {
-    display: block;
-}
-
 
 nav nav-bar li a {
     display: block;
@@ -81,7 +67,7 @@ nav nav-bar li a {
 
     background-color: lightgray;
     padding: 20px;
-=======
+  }
 #Naam{
     height: 70px;
     font-size: 50px;
@@ -117,7 +103,6 @@ nav nav-bar li a {
     border-radius: 100px;
     padding-left: 50px;
     padding-right: 50px;
->>>>>>> f60d340ed0242272085beca4f7022d70b8ec70d4
     text-align: center;
     justify-content: center;
   }

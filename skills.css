@@ -11,6 +11,14 @@
     width: 100px;
     z-index: 1;
 }
+.backgrnd{
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 1;
+    z-index: 0;
+ }
 
 #grid-container1{
     position: absolute;
@@ -28,28 +36,41 @@
 }
 
 #flex-containerTalen{
+margin-top: 5%;
+margin-left: 20%;
+}
+
+.flexSkills{
+    border-radius: 50px;
 display: flex;
 flex-direction: row;
 width: 60%;
 height: 350px;
 background-color: lightblue;
-margin-top: 5%;
 margin-left: 20%;
 }
 
-#talen-img{
-    width: 30%;
-    
+#talenImg{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+#ervaringImg{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
-#talen{
+.Skills-img{
+    width: 30%;
+}
+
+.SKillsText{
     width: 70%;
 }
 
-#Talen-titel{
+.SkillsTitel{
+    margin-left: 7%; 
     padding-top: 1%;
     font-size: 50px;
-    margin-left: 7%;
     text-decoration: underline;
 }
 
@@ -57,10 +78,27 @@ ul{
     margin-left: 10%;
     padding-top: 1.5%;
     font-size: 35px;
+    
 }
 
 li{
     padding-top: 1.5%;
 }
+
+#Kopje2 ul {
+    font-size: 30px;
+    
+}
+
+
+
+
+#Kopje2 li{
+    padding-top: 2.5%;
+}
+
+
+
+
 
 

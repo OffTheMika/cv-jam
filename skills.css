@@ -13,8 +13,8 @@
 }
 .backgrnd{
     top: 0;
-    height: 100VH;
-    width: 100VW;
+    height: 100%;
+    width: 100%;
     position: absolute;
     opacity: 1;
     z-index: 0;
@@ -97,10 +97,79 @@ li{
     padding-top: 2.5%;
 }
 
-@media (max-width: 1250px) {
+#mobile-buttons {
+    display: none;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+@media (max-width: 1025px){
+    .flexSkills{
+        width: 70vw;
+    }
+}
+
+@media (max-width: 769px) {
+
     
+    .Skills-img{
+        width: 40%;
+    }
+
+    ul{
+        margin-left: 35px ;
+        font-size: 180%;
+    }
+
+    #Kopje2 ul {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 527px){
+
+    #talenImg{
+        height: 0vh;
+        width: 0vw;
+    }
+    #ervaringImg{
+        height: 0vh;
+        width: 0vw;
+    }
+
+    #flex-containerTalen{
+        margin-top: 30%;
+        
+    }
+   
+    #grid-container1{
+        margin-left: -40px;
+        gap: 0%;
+    }
+    ul{
+    font-size: 120%;
+    }
+
+    #Kopje2 ul {
+        font-size: 70%;
+        
+    }
+    .SKillsText{
+        width: 100vw;
+    }
+  .flexSkills{
+    padding: 0px;
+    margin-top: 40px;
+    height: 30vh;
+    width: 80vw;
   }
 
+ 
+}
 
 
 

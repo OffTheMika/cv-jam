@@ -99,3 +99,69 @@ li{
 #Kopje2 li{
     padding-top: 2.5%;
 }
+@media (max-width: 1025px){
+    .flexOverMij{
+        width: 70vw;
+    }
+}
+
+@media (max-width: 769px) {
+
+    
+    .OverMij-img{
+        width: 40%;
+    }
+
+    ul{
+        margin-left: 35px ;
+        font-size: 85%;
+    }
+
+    #Kopje2 ul {
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 527px){
+
+    #MijImg{
+        height: 0vh;
+        width: 0vw;
+    }
+    #SoftSkillsImg{
+        height: 0vh;
+        width: 0vw;
+    }
+
+    #flex-containerMij{
+        margin-top: 30%;
+        
+    }
+   
+    #grid-container1{
+        margin-left: -40px;
+        gap: 0%;
+    }
+    ul{
+    font-size: 85%;
+    }
+
+    #Kopje2 ul {
+        font-size: 120%;
+        
+    }
+    .SKillsText{
+        width: 100vw;
+    }
+  .flexOverMij{
+    padding: 0px;
+    margin-top: 40px;
+    height: 35vh;
+    width: 80vw;
+  }
+}
+@media(max-width: 376px){
+    ul{
+        font-size: 75%;
+        }
+}
